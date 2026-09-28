@@ -1,0 +1,102 @@
+# ================================
+# .NET / Visual Studio
+# ================================
+
+# Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# ================================
+# Logs
+# ================================
+
+*.log
+logs/
+
+# ================================
+# OS generated files
+# ================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ================================
+# NuGet
+# ================================
+
+*.nupkg
+*.snupkg
+packages/
+
+# ================================
+# Test results
+# ================================
+
+TestResults/
+*.trx
+
+# ================================
+# Coverage
+# ================================
+
+coverage/
+.coverage
+.coveragexml
+
+# ================================
+# Environment / Secrets
+# ================================
+
+.env
+.env.*
+!.env.example
+
+# ================================
+# Local configuration
+# ================================
+
+appsettings.Local.json
+appsettings.*.Local.json
+
+# ================================
+# Certificates / Keys
+# ================================
+
+*.pfx
+*.p12
+*.key
+*.pem
+
+# ================================
+# Temporary files
+# ================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ================================
+# Publish output
+# ================================
+
+publish/
+wwwroot/dist/
